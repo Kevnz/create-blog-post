@@ -37,7 +37,7 @@ create({
   console.info('Created')
   process.exit(0)
 })
-.catch(()=> {
-  console.info('Failed')
+.catch((err)=> {
+  console.error('Failed', err)
   process.exit(1)
 })
