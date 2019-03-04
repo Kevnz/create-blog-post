@@ -30,6 +30,7 @@ const create = async (opts = {}) => {
   const name = path.basename(dirname)
 
   fs.ensureDirSync(name)
+  fs.ensureDirSync(path.join(dirname, '.assets'))
 
   const packageJson = {
     name: name,
