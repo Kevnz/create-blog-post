@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/Kevnz/create-blog-post/issues"
   },
-  "homepage": "https://github.com/Kevnz/create-blog-post#readme",
+  "homepage": "http://kevinisom.info/create-blog-post",
   "dependencies": {
     "fs-extra": "^7.0.1",
     "meow": "^5.0.0",
