@@ -1,0 +1,31 @@
+{
+  "name": "create-blog-post",
+  "version": "0.0.1",
+  "description": "Create a repo to setup a new blog post using gh-pages",
+  "main": "index.js",
+  "bin": {
+    "create-blog-post": "./bin/create-blog-post.js"
+},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Kevnz/create-blog-post.git"
+  },
+  "keywords": [
+    "blog",
+    "blogpost",
+    "markdown"
+  ],
+  "author": "Kevin Isom <kevin.isom@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kevnz/create-blog-post/issues"
+  },
+  "homepage": "https://github.com/Kevnz/create-blog-post#readme",
+  "dependencies": {
+    "meow": "^5.0.0",
+    "npm-programmatic": "0.0.11"
+  }
+}
