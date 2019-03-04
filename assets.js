@@ -1,4 +1,9 @@
 module.exports = {
+  ignore: `
+  node_modules
+  dist
+  *.log
+  `,
   head: `<!DOCTYPE html>
     <html lang="en">
     <head>

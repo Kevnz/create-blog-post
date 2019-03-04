@@ -3,7 +3,7 @@ const os = require('os')
 const exec = require('child_process').execSync
 const fs = require('fs-extra')
 const npm = require('npm-programmatic')
-const { head, foot, extra } = require('./assets')
+const { head, foot, extra, ignore } = require('./assets')
 
 const install = (root) => {
   return  npm.install([ '@kev_nz/publisher' ], {
@@ -57,7 +57,10 @@ const create = async (opts = {}) => {
     path.join(dirname, '.assets', 'extra.css'),
     extra
   )
-
+  fs.writeFileSync(
+    path.join(dirname, '.gitignore'),
+    ignore
+  )
   fs.writeFileSync(
     path.join(dirname, 'readme.md'),
     `# ${name} ${os.EOL}${os.EOL}`
