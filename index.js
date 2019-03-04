@@ -1,6 +1,7 @@
 const path = require('path')
 const os = require('os')
 const exec = require('child_process').execSync
+const fs = require('fs-extra')
 const npm = require('npm-programmatic')
 const { head, foot, extra } = require('./assets')
 

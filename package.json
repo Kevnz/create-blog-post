@@ -1,11 +1,11 @@
 {
   "name": "create-blog-post",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Create a repo to setup a new blog post using gh-pages",
   "main": "index.js",
   "bin": {
     "create-blog-post": "./bin/create-blog-post.js"
-},
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/Kevnz/create-blog-post#readme",
   "dependencies": {
+    "fs-extra": "^7.0.1",
     "meow": "^5.0.0",
     "npm-programmatic": "0.0.11"
   }
