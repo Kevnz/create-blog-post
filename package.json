@@ -1,13 +1,14 @@
 {
   "name": "create-blog-post",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "description": "Create a repo to setup a new blog post using gh-pages",
   "main": "index.js",
   "bin": {
     "create-blog-post": "./bin/create-blog-post.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publisher": "publisher"
   },
   "repository": {
     "type": "git",
@@ -28,5 +29,8 @@
     "fs-extra": "^7.0.1",
     "meow": "^5.0.0",
     "npm-programmatic": "0.0.11"
+  },
+  "devDependencies": {
+    "@kev_nz/publisher": "^3.0.1"
   }
 }
