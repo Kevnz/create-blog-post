@@ -1,6 +1,6 @@
 {
   "name": "create-blog-post",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a repo to setup a new blog post using gh-pages",
   "main": "index.js",
   "bin": {

@@ -63,7 +63,11 @@ const create = async (opts = {}) => {
   )
   fs.writeFileSync(
     path.join(dirname, 'readme.md'),
-    `# ${name} ${os.EOL}${os.EOL}`
+    `# ${name}
+
+Put blog post content here
+
+`
   )
   process.chdir(dirname)
 
